@@ -1,4 +1,4 @@
-.place__website {
+.website {
     width: 456px;
     height: 46px;
     margin: 0;
@@ -6,13 +6,13 @@
  }
 
 @media screen and (max-width: 984px) {
-    .place__website {
+    .website {
         max-width: 352px;
     }
 }
 
 @media screen and (max-width: 568px) {
-    .place__website {
+    .website {
         max-width: 288px;
     }
 }
