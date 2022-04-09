@@ -2,7 +2,6 @@
     max-width: 640px;
     max-height: 72px;
     margin: 32px auto 63px;
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 30px;
@@ -16,7 +15,16 @@
     }
 }
 
-@media screen and (max-width: 568px) {
+@media screen and (max-width: 767px) {
+    .lead__subtitle {
+        max-width: 400px;
+        font-size: 27px;
+        line-height: 30px;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
     .lead__subtitle {
         max-width: 288px;
         max-height: 40px;

@@ -18,7 +18,14 @@
     }
 }
 
-@media screen and (max-width: 568px) {
+@media screen and (max-width: 767px) {
+    .footer {
+        max-width: 600px;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 400px) {
     .footer {
         max-width: 186px;
         margin: 64px 0 0;

@@ -1,7 +1,6 @@
 .place__paragraph {
     max-width: 484px;
     margin: 48px 0 0;
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -25,13 +24,23 @@
     }
 }
 
-@media screen and (max-width: 568px) {
+@media screen and (max-width: 767px) {
     .place__paragraph {
-        max-width: 288px;
-        margin: 32px 0 0;
+        max-width: 300px;
+        margin: 40px auto 0;
     }
     .place__paragraph:nth-child(2) {
-        margin: 25px 0 0;
+        margin: 26px auto 0;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .place__paragraph {
+        max-width: 288px;
+        margin: 32px auto 0;
+    }
+    .place__paragraph:nth-child(2) {
+        margin: 25px auto 0;
     }
 }
 

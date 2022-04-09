@@ -22,10 +22,25 @@
     }
 }
 
-@media screen and (max-width: 568px) {
+@media screen and (max-width: 767px) {
+    .place {
+        width: 600px;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        align-content: center;
+        align-self: center;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .place {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 400px) {
     .place {
         max-width: 320px;
-        grid-template-columns: repeat(1, 1fr);
         margin-bottom: 50px;
     }
 }

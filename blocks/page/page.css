@@ -1,14 +1,25 @@
 .page {
+    font-family: 'Inter', sans-serif, Arial;
     background-color: #2A2C2F;
     color: #FFFFFF;
-    font-weight: 400;
     min-width: 320px;
     max-width: 1280px;
     margin: 0 auto;
     padding: 28px 0 24px;
+    /*overflow-x: hidden;*/
+}
+.border {
+    border: 1px  double red;
+
 }
 
-@media screen and (max-width: 568px) {
+@media screen and (max-width: 767px) {
+    .page {
+        padding: 20px 0;
+    }
+}
+
+@media screen and (max-width: 400px) {
     .page {
         padding-top: 16px;
     }

@@ -43,7 +43,21 @@
     }
 }
 
-@media screen and (max-width: 568px) {
+@media screen and (max-width: 767px) {
+    .cover__image {
+        max-width: 600px;
+        min-height: 400px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .cover__image {
+        max-width: 400px;
+        min-height: 250px;
+    }
+}
+
+@media screen and (max-width: 400px) {
     .cover__image {
         width: 320px;
         min-height: 200px;

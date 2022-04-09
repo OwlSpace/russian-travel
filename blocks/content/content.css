@@ -11,7 +11,14 @@
     }
 }
 
-@media screen and (max-width: 568px) {
+@media screen and (max-width: 600px) {
+    .content {
+        grid-row-gap: 70px;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
     .content {
         grid-row-gap: 64px;
     }
