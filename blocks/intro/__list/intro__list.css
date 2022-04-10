@@ -21,6 +21,18 @@
     }
 }
 
+@media screen and (max-width: 767px) {
+    .intro__list {
+        max-width: 600px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .intro__list {
+        max-width: 400px;
+    }
+}
+
 @media screen and (max-width: 400px) {
     .intro__list {
         width: 288px;
